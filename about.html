@@ -1,69 +1,230 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-  body{
-    background-image:url("https://wallpaperaccess.com/full/1307986.jpg");background-position: center top;
-     background-size:cover;
-     opacity: 1;
-
-  }
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
+ <html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <title></title>
+   <style>
+     .image-container {
+  position: relative;
   display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
+}
+
+
+body {
+
+
+background: #FFF1B7;
+background: linear-gradient(90deg, #FFF1B7, #F7E28A);
+}
+
+
+
+.image-container  {
+  display: block;
   width: 100%;
-  font-size: 18px;
+  height: auto;
 }
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: white;
+.contactAbout{
+background: #F2AE0D;
+background: linear-gradient(315deg, #F2AE0D, #FCEAC2);
+border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+padding:20px;
+width:20% ;
+border-radius:20px;\
+text-align: center;
+
+}
+.aboutContent{
+  margin-left: 100px;
+  width:50%;
+  text-align: justify;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
+.material-symbols-outlined {
+    display: inline-block; /* or dithsplay: inline; */
+    vertical-align: middle;
 }
-</style>
-</head>
-<body>
 
-<h2 style="text-align:center;color:white;font-family:sans-serif;margin-top: 200px;">About Me</h2>
+.phone-number {
+    display: inline-block; /* or display: inline; */
+    vertical-align: middle;
+    margin-left: 5px; /* Add some space between the symbol and the number */
+}
 
-<div class="card">
-  <img src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" alt="John" style="width:100%">
-  <h1 style="color:white;">Santhosh Shukla</h1>
-  <p style="color:white;" class="title">CEO & Founder,Rudraksh</p>
-  <p style="color:coral;font-weight: bold;">Benaras Hindi University</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-  <a href="contact.html"><button>Contact</button></a>
+
+
+.profile-section {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center align vertically */
+    justify-content: start; /* Center align horizontally */
+    text-align: center; /* Center aligns the profile name */
+    margin-bottom: 20px; /* Space below the profile section */
+}
+
+.overlay-text {
+   color:white
+    margin-left: 20px;
+
+     /* Space between the profile photo and the text */
+}
+
+.overlay-textOne {
+    display: inline; /* Display as inline to move towards the left */
+    margin-left:0px
+       /* Remove margin */
+}
+
+.overlay-textTwo {
+    display: inline-block; /* Dis  
+play as inline-block for proper alignment */
+    margin:0;  
+   /* Remove margin */
+}
+
+.profile-photo {
+    width: 300px; /* Adjust the width of the profile photo */
+    height: 300px; /* Adjust the height of the profile photo */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 20px;
+    margin-left:50px; /* Space between the profile photo and the content */
+}
+
+.info-section {
+    margin-top: 20px; /* Space above the info sections */
+    clear: both; /* Clears the float */
+}
+
+.info-item {
+    margin-bottom: 15px; /* Space between each section */
+}
+
+.aboutPara{
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: justify-all;
+}
+@media (max-width: 768px) {
+.aboutContent{
+  
+width:80%;
+margin: 0;
+}
+
+.contactAbout{
+background: #F2AE0D;
+background: linear-gradient(315deg, #F2AE0D, #FCEAC2);
+border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+padding:20px;
+width:80% ;
+border-radius:20px;
+text-align: center;
+margin-left:20px;
+}
+
+
+  .overlay-textOne {
+    display: inline; /* Display as inline to move towards the left */
+    margin:20px;
+       /* Remove margin */
+}
+
+.overlay-textTwo {
+    display: inline-block; /* Display as inline-block for proper alignment */
+    margin:0;  
+   /* Remove margin */
+}
+
+.aboutPara{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify-all;
+}
+
+#aboutTopHead{
+  text-align: center;
+}
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.home-link-button {
+      order: 2;
+     border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+     background:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+     height: 40px;
+    
+     width:100px;
+
+}
+.home-link{
+order: 2;
+     border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+     background:linear-gradient(315deg, #F2AE0D, #FCEAC2);
+}
+
+.overlay-text {
+    
+    margin: 0;
+}
+
+
+
+
+
+
+   </style>
+ </head>
+ <body>
+<div class="header">
+    <a  href="index.html" class="home-link">
+        <button class="home-link-button">Home</button>
+
+    </a>
+    <h1 id="aboutTopHead" class="overlay-text">Acharya Santosh Shukla</h1>
+</div> 
+<div class="profile-section">
+
+    <img src="mama.jpg" alt="Profile Photo" class="profile-photo">
+    
 </div>
 
-</body>
-</html>
+<div class="info-section">
+    <div class="expertise info-item">
+        <h3 class="overlay-textOne">Expertise:</h3>
+        <p class="overlay-textTwo">Vedic, Kp System, Lal Kitab</p>
+    </div>
+
+    <div class="info-item">
+        <h3 class="overlay-textOne">Experience:</h3>
+        <p class="overlay-textTwo">9+ years of experience</p>
+    </div>
+
+    <div class="info-item">
+        <h3 class="overlay-textOne">Language:</h3>
+        <p class="overlay-textTwo">Hindi, English</p>
+    </div>
+</div>
+<div class="contactAbout">
+<h2>
+    <span class="material-symbols-outlined">call</span>: <span class="phone-number">9868641336</span>
+</h2>
+
+</div>
+
+<h1 class="aboutHead">About Acharya Santosh Shukla</h1>
+<p class="aboutPara">
+Acharya Santosh, a distinguished authority in the mystical realms, has cultivated a rich tapestry of expertise spanning over a decade. His multifaceted mastery encompasses Vedic Astrology, KP System, Lal Kitab, Vastu, Palmistry, and Muhurta. A true custodian of ancient wisdom, Acharya Santosh seamlessly weaves these diverse modalities to offer seekers a holistic understanding of their lives. Whether unraveling the celestial influences through Vedic insights or deciphering the nuances of palmistry, his guidance is a compass navigating the cosmic currents. </p>
+<p class="aboutPara">
+Proficient in the nuanced art of Muhurta, Acharya Santosh empowers individuals to align their actions with auspicious timings. His commitment to diverse metaphysical sciences marks him not just as an astrologer but as a beacon of wisdom, illuminating the intricate paths of those seeking profound insights.
+</p>
+
+ </body>
+ </html>
