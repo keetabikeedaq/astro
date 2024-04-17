@@ -213,9 +213,9 @@ top:300px;
        
           background: red;
           margin-bottom: 30px;
-overflow: auto;
-        
-         word-wrap: break-word;
+          overflow: auto;
+        margin-right:-30px;
+          word-wrap: break-word;
 
         
 }
@@ -225,6 +225,7 @@ overflow: auto;
         height: auto;
           background: red;
         margin-bottom: 30px;
+  margin-right:-30px;
         overflow: auto;
         height: fit-content;
          word-wrap: break-word;
