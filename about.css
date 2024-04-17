@@ -7,20 +7,20 @@
 
 .nav-scroll {
       position: sticky;
-    
+      top: 13%;
+      margin-left:30px;
       bottom: auto;
       z-index: 10;
-
+   
     }
   
     .content-section a {
       display: none;
     }
-
   .content-section img {
       width: 15% ;
       margin-bottom: 20px;
-      width: 28%;
+         width: 28%;
       border: 1px solid;
       padding: 20px;
       border-radius: 20px;
@@ -40,7 +40,7 @@
       padding: 5px !important;
   }
   
-    .content-section a , .content-section1 a{
+    .content-section a {
       display: none
     }
   
@@ -62,7 +62,7 @@
     
   
     nav .active-section span {
-      background-color: black;
+      background-color: #004080;
       color:#fff;
     }
   
@@ -82,33 +82,31 @@
       align-items: center;
   }
   
-  .content-section, .content-section1 {
+  .content-section {
     position: sticky;
-width: 90%;
+width: 80%;
 height: 250px;
 display: flex;
 padding: 30px;
 /*left: 45%;*/
 color: #fff;
 margin: 50px 30px;
+overflow: auto;
+word-break:break-word;
 
 flex-direction: column;
 
 background-color: black;
 border-radius: 20px;
 border: 2px solid;
-overflow: auto;
-height: fit-content;
-
 
   }
-   .content-section h2,.content-section1 h2{
+   .content-section h2{
        font-size: 20px;
        color: #fff;
    }
 
 #section1{
-
 top:150px;
 }
 
@@ -129,7 +127,7 @@ top:260px;
 }
 
 #section6{
-top:250px;
+top:290px;
 }
 
 #section7{
@@ -139,17 +137,17 @@ top:300px;
 
    
   
-    .content-section p, .content-section1 p {
+    .content-section p {
       width: 66%;
       
       font-weight: 600 !important;
     }
   
-    .content-section li ,.content-section1 li{
+    .content-section li {
       list-style: none;
     }
   
-    .content-section h1 , .content-section1 h1{
+    .content-section h1 {
       position: relative;
       top: 50%;
       left: 50%;
@@ -189,53 +187,31 @@ top:300px;
     ul.scrolling-list li {
       width: 56%;
     }
-
   
-    @media screen and (min-width: 800px and max-width:800px) {
-      .content-section , .content-section1{
-      
-        width: 80%;
-        height: fit-content;
-        overflow: scroll;
-       transform: translateY(-60%);
-      }
-  
-      .content-section p, .content-section1 p {
+    @media screen and (max-width: 768px) {
+      .content-section {
+      background: black;
         width: 90%;
-        height: auto;
-        overflow: scroll;
+        margin-bottom: 20px;
+        top:20px;
+        margin-top: 500px;
+         overflow: auto;
+        word-break:break-word;
+        transform: translateY(-60%);
       }
   
-      .content-section1 {
-        margin-top: 650px;
-       
-          background: red;
-          margin-bottom: 30px;
-          overflow: auto;
-          margin-right: -30px;
-        
-         word-wrap: break-word;
-
-        
-}
-
-.content-section {
-       
-        height: auto;
-          background: red;
-        margin-bottom: 30px;
-        overflow: auto;
+      .content-section p {
+        width: 90%;
+      }
+  
+      .content-section {
         height: fit-content;
-        
-         margin-right: -30px;
-
-      }  
+        margin-bottom: 30px;
+      }
+  
       .nav-scroll {
-      
-        width: 80%;
-         height: auto;
-
-
+        
+        width: 40%;
       }
        .nav-scroll img{
        
@@ -267,21 +243,24 @@ top:300px;
         line-height: 40px;
        
       }
+
+    
   
-      .content-section a ,.content-section1 a{
+      .content-section a {
         display: flex;
         color: #000;
         text-decoration: none;
         font-weight: 700;
         text-align: left;
         font-size: 20px;
-/*        margin-bottom: 30px;*/
+        margin-bottom: 30px;
         justify-content: flex-start;
         align-items: center;
 
+       
       }
   
-      .content-section li, .content-section1 li {
+      .content-section li {
         list-style: none;
       }
   
