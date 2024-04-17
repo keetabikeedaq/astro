@@ -66,25 +66,11 @@
       color:#fff;
     }
   
-  .circle {
-      display: flex;
-      width: 45px;
-      letter-spacing: 29px;
-      border-radius: 50%;
-      height: 45px;
-      padding-left: 30px;
-      color: #000;
-      border: 1px solid;
-      margin-right: 20px;
-      font-size: 20px;
-      /*background: #ddd;*/
-      justify-content: center;   
-      align-items: center;
-  }
+
   
-  .content-section {
-    position: sticky;
-width: 80%;
+.content-section {
+position: sticky;
+width: 90%;
 height: 250px;
 display: flex;
 padding: 30px;
@@ -127,7 +113,7 @@ top:260px;
 }
 
 #section6{
-top:290px;
+top:310px;
 }
 
 #section7{
@@ -191,11 +177,11 @@ top:300px;
     @media screen and (max-width: 768px) {
       .content-section {
       background: black;
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
         top:20px;
-        margin-top: 500px;
-         overflow: auto;
+        margin-top: 450px;
+        overflow: auto;
         word-break:break-word;
         transform: translateY(-60%);
       }
