@@ -109,27 +109,27 @@ word-wrap: break-word;
 
 #section1{
 
-top:100px;
-}
-
-#section2{
 top:170px;
 }
 
-#section3{
+#section2{
 top:200px;
 }
 
+#section3{
+top:250px;
+}
+
 #section4{
-top:230px;
+top:300px;
 }
 
 #section5{
-top:260px;
+top:350px;
 }
 
 #section6{
-top:290px;
+top:400px;
 }
 
 #section7{
