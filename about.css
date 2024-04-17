@@ -7,7 +7,7 @@
 
 .nav-scroll {
       position: sticky;
-  
+    
       bottom: auto;
       z-index: 10;
 
@@ -85,7 +85,7 @@
   .content-section, .content-section1 {
     position: sticky;
 width: 90%;
-
+height: 250px;
 display: flex;
 padding: 30px;
 /*left: 45%;*/
@@ -99,7 +99,7 @@ border-radius: 20px;
 border: 2px solid;
 overflow: auto;
 height: fit-content;
-word-wrap: break-word;
+
 
   }
    .content-section h2,.content-section1 h2{
@@ -109,31 +109,31 @@ word-wrap: break-word;
 
 #section1{
 
-top:130px;
-}
-
-#section2{
 top:150px;
 }
 
-#section3{
+#section2{
 top:170px;
 }
 
+#section3{
+top:200px;
+}
+
 #section4{
-top:190px;
-}
-
-#section5{
-top:210px;
-}
-
-#section6{
 top:230px;
 }
 
-#section7{
+#section5{
+top:260px;
+}
+
+#section6{
 top:250px;
+}
+
+#section7{
+top:300px;
 }
 
 
@@ -202,7 +202,7 @@ top:250px;
   
       .content-section p, .content-section1 p {
         width: 90%;
-        height: fit-content;
+        height: auto;
         overflow: scroll;
       }
   
@@ -212,8 +212,9 @@ top:250px;
           background: red;
           margin-bottom: 30px;
           overflow: auto;
-        margin-right:-50px;
-          word-wrap: break-word;
+          margin-right: -30px;
+        
+         word-wrap: break-word;
 
         
 }
@@ -223,10 +224,10 @@ top:250px;
         height: auto;
           background: red;
         margin-bottom: 30px;
-  margin-right:-50px;
         overflow: auto;
         height: fit-content;
-         word-wrap: break-word;
+        
+         margin-right: -30px;
 
       }  
       .nav-scroll {
@@ -274,7 +275,7 @@ top:250px;
         font-weight: 700;
         text-align: left;
         font-size: 20px;
-   margin-bottom: 30px;
+/*        margin-bottom: 30px;*/
         justify-content: flex-start;
         align-items: center;
 
