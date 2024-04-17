@@ -9,7 +9,7 @@ body{
 
 .nav-scroll {
       position: sticky;
-    
+    top:10px;
       bottom: auto;
       z-index: 10;
 
@@ -232,7 +232,7 @@ top:300px;
 
       }  
       .nav-scroll {
-      
+      top:10px;
         width: 80%;
          height: auto;
 
