@@ -4,6 +4,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link rel="stylesheet" href="about.css"/>
    <title></title>
    <style>
      .image-container {
@@ -15,8 +16,7 @@
 body {
 
 
-background: #FFF1B7;
-background: linear-gradient(90deg, #FFF1B7, #F7E28A);
+background: white;
 }
 
 
@@ -35,12 +35,18 @@ padding:20px;
 width:20% ;
 border-radius:20px;
 text-align: center;
+font-family: sans-serif;
 
 }
 .aboutContent{
   margin-left: 100px;
   width:50%;
   text-align: justify;
+  font-family: sans-serif;
+}
+
+.aboutHead{
+  margin:20px;  
 }
 
 .material-symbols-outlined {
@@ -54,6 +60,11 @@ text-align: center;
     margin-left: 5px; /* Add some space between the symbol and the number */
 }
 
+/*.aboutWrapperBox{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  height: auto;
+}*/
 
 
 .profile-section {
@@ -61,19 +72,24 @@ text-align: center;
     align-items: center; /* Center align vertically */
     justify-content: start; /* Center align horizontally */
     text-align: center; /* Center aligns the profile name */
-    margin-bottom: 20px; /* Space below the profile section */
+    margin-bottom: 20px;
+    font-family: sans-serif;
+
+     /* Space below the profile section */
 }
 
 .overlay-text {
    color:white
     margin-left: 20px;
+     font-family: sans-serif;
 
      /* Space between the profile photo and the text */
 }
 
 .overlay-textOne {
     display: inline; /* Display as inline to move towards the left */
-    margin-left:0px
+    margin-left:0px;
+     font-family: sans-serif;
        /* Remove margin */
 }
 
@@ -81,6 +97,7 @@ text-align: center;
     display: inline-block; /* Dis  
 play as inline-block for proper alignment */
     margin:0;  
+     font-family: sans-serif;
    /* Remove margin */
 }
 
@@ -102,18 +119,25 @@ play as inline-block for proper alignment */
 }
 
 .aboutPara{
-  font-size: 24px;
+  font-size: 20px;
   font-family: sans-serif;
   text-align: justify-all;
+  padding: 10px;
+  margin: 10px;
 }
 
+
+
 @media (max-width: 768px) {
+  body{
+    background: white;
+  }
 
- body{
-  background:white;
- }
+  .aboutHead{
+    text-align: center;
+  }
 
- .profile-photo {
+  .profile-photo {
     width: 250px; /* Adjust the width of the profile photo */
     height: 250px; /* Adjust the height of the profile photo */
     border-radius: 50%; /* Makes the image circular */
@@ -151,15 +175,21 @@ margin-left:20px;
 }
 
 .aboutPara{
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
-  text-align: justify-all;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
 }
 
 #aboutTopHead{
   text-align: center;
   font-size: 14px;
+  font-family: sans-serif;
 }
+
+
 
 }
 .header {
@@ -167,6 +197,7 @@ margin-left:20px;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    font-family: sans-serif;
 }
 
 .home-link-button {
@@ -185,7 +216,7 @@ order: 2;
 }
 
 .overlay-text {
-    
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -199,7 +230,7 @@ order: 2;
  <body>
 <div class="header">
     <a  href="index.html" class="home-link">
-        <button class="home-link-button">Home</button>
+        <button style="border:1px solid yellow"class="home-link-button">Home</button>
 
     </a>
     <h1 id="aboutTopHead" class="overlay-text">Acharya Santosh Shukla</h1>
@@ -232,13 +263,96 @@ order: 2;
 </h2>
 
 </div>
-
+<div class="aboutWrapperBox">
 <h1 class="aboutHead">About Acharya Santosh Shukla</h1>
 <p class="aboutPara">
 Acharya Santosh, a distinguished authority in the mystical realms, has cultivated a rich tapestry of expertise spanning over a decade. His multifaceted mastery encompasses Vedic Astrology, KP System, Lal Kitab, Vastu, Palmistry, and Muhurta. A true custodian of ancient wisdom, Acharya Santosh seamlessly weaves these diverse modalities to offer seekers a holistic understanding of their lives. Whether unraveling the celestial influences through Vedic insights or deciphering the nuances of palmistry, his guidance is a compass navigating the cosmic currents. </p>
 <p class="aboutPara">
 Proficient in the nuanced art of Muhurta, Acharya Santosh empowers individuals to align their actions with auspicious timings. His commitment to diverse metaphysical sciences marks him not just as an astrologer but as a beacon of wisdom, illuminating the intricate paths of those seeking profound insights.
 </p>
+</div>
 
+<nav class="nav-scroll">
+   <h1 class="aboutHead">FAQ'S ABOUT ASTROLOGY</h1>
+   
+   <div>
+    <section  id="section1" class="content-section1">
+      
+     <h2>Why Is Astrology So Accurate?</h2>
+    First of all, the credit for astrology and the predictions we make here being so accurate goes to the 100s of learned and astrologically-versed astrologers we have on board. And to answer what makes astrology so accurate, then it is the pure knowledge of our astrologers about the planets, planetary configurations, constellations and learning of how they influence human life and behaviour as they move, shift or even stay still.
+
+    Astrology is not some random guesswork but science that entails scientific principles that were sketched by learned Gurus 1000s of years ago and have not changed to date. These gurus studied the movement of planets and how their aura influences the life of people on earth. The antiquity of astrology is revealed from the fact that millions of people continue to stay connected with it due to the accuracy it has to offer. Astrology has changed the lives of millions of people through us and many other astrologers who continue to share their knowledge of astrology one prediction at a time.
+
+  
+    </section>
+    <section id="section2" class="content-section">
+     
+      <h2>Is Astrology Prediction True?</h2>
+          Many people have misconceptions that an astrologer can tell them what exactly is going to happen with them in the future or next moment, which is a wrong way to think about astrology. Astrology predictions are based on planetary movements. A planet moves from one house to another, one zodiac sign to another, etc. These moments by plantes can either be good or unfavourable for the native. For example, if say the planet Mercury is camping in a friendly zodiac sign, the outcomes are to be good for the native. Meanwhile, if the mercury is camping in an unfriendly zodiac sign, the outcome can be critical. An astrologer, based on calculations, notes down such shifts and traits and based on the same share with you if your upcoming time would be good or tough. If you think this way, astrology predictions ought to be true. Accurate predictions are possible when you seek to know about things like upcoming shubh muhurats, whether you are manglik or not?, etc.
+
+     
+     
+    </section>
+    <section id="section3" class="content-section">
+      
+      <h2>How Can Online Astrology Help Me In Predicting The Future?</h2>
+        Online astrology can be of two types. One, you can visit a website and find astrology tools available on the same. Then all you need to do is enter some details like your date of birth, time of your birth, place of birth, etc. and you will have for yourself a contentful report describing you better than anyone else ever would. Meanwhile, the other way around is to directly get in touch with the astrologers (over a call or chat) we have on board to get the same information in a much detailed manner. Online astrology may look modern but when it comes to making predictions about your future, the old school way of calculating the position of the stars and planets is used to provide you the most accurate results. Simply say, online astrology is just a change of mode of communication between an astrologer and the one who seeks to know about their past, present and future. However, the ways to come to these answers is still old school and one one of the most authentic one.
+
+   </section>
+    <section id="section4" class="content-section">
+     
+      <h2>What Kind Of Questions Can I Ask To Online Astrologers?</h2>
+           Until you are being respectful and authentic about your queries, there isn't a limit to what you can chat with an astrologer and what you can’t. Astrology has an answer for literally anything and everything. Starting right from your career to your love life or health, astrology can predict endless queries. You can trust us when we say our astrologers have been inundated with some of the most difficult questions, which they have answered with ease.
+
+Are you a manglik? An astrologer can help you find that. Or what the shubh muhurat for getting married? Or what are the chances of you improving your financial position in the years to come? Our astrologers can answer all such questions by simply calculating the position of the planets and combining them with numerous factors like your nakshatra, zodiac signs, houses in astrology and more.
+
+      
+  
+    </section>
+   
+    <section id="section6" class="content-section">
+     
+      <h2>Can Astrology Predictions Be Changed?</h2>
+    Astrological predictions may change in several cases:
+
+The first is when an astrologer unintentionally makes a mistake in locating the position of the planets. In such a case, the predictions can go wrong.
+
+Secondly, if you have provided the wrong information, especially the date and time of your birth, then astrology predictions are subject to change.
+
+The third situation when astrology predictions can go wrong is when you try to change yourself for good or bad. Many of you must be thinking that how an astrological prediction can change when it is mostly based on the movement of planets (which does not change)? Well, there is more to it. Every planet rules some good traits and bad traits. And it’s your deeds that decides which traits of the planet will become powerful. So for example, if you are a careless person as of now with Mercury as your ruling planet, you are unable to gain the good effects of Mercury. However, if you try to change yourself with time, the good traits of Mercury will eventually reflect in your chart and personality thus changing the astrology prediction.
+
+  
+  
+    </section>
+    
+      <section id="section7" class="content-section">
+      
+      <h2>What Benefits Can I Expect If I Avail Astrology Services?</h2>
+       First of all, if you are new to our platforms, you get a flat 50% discount on your first prediction. So that’s some savings. Secondly, using the insights provided by our astrologers about your future or the present self, you can be careful in terms that will help you deal with major problems, which could be finance-related, career-related, love related etc.
+
+By seeing your astrological chart, an astrologer can not only predict about you but also about your behaviour towards your family, your relatives, your colleagues and more. Learning about these behaviours can help you better present yourself in front of people that matter. This way, astrology can positively help you improve your personality among uncountable goods it can do to you. For more details about astrology and future predictions, you can talk to astrologer.
+
+  
+  
+    </section>
+    
+       <section  id="section5" class="content-section">
+     
+      <h2>What Is The Duration For Online Astrology Consultation?</h2>
+     Astrology has no limits and nor do we. We have so many astrologers on board with whom you can connect and ask questions to. They would help you with all your queries without any time limit intact.
+
+  
+      
+    </section>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+  
+
+
+  
+  </nav>
+  
  </body>
  </html>
