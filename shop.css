@@ -3,6 +3,12 @@
 html {
   scroll-behavior: smooth;
 }
+.profileShadow{
+  
+  box-shadow:rgba(0, 0, 255, 0.5) 1px 10px 20px, rgba(0, 0, 255, 0.2) 0px 0px 0px 5px;
+border:1px solid black;
+margin-top: 200px;
+}
 
 *{
   margin: 0;
@@ -116,7 +122,7 @@ display: none;
 
 #navbar li a:hover,
 #navbar li a.active{
-  color: #088178;
+  color: coral;
 }
 
 #navbar li a:hover::after,
@@ -125,7 +131,7 @@ display: none;
   width: 30%;
   height: 2px;
   background: 2px;
-  background-color: #088178;
+  background-color:black;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -144,6 +150,11 @@ display: none;
   justify-content: center;
   line-height: 1;
  
+}
+
+#heroWrapper{
+  display:flex;
+  flex-direction: row;
 }
 
 #hero h1{
@@ -589,6 +600,21 @@ footer .copyright{
 }
 
 
+#heroPara{
+color: white;
+width: 35%;
+line-height: 2;
+text-align: justify;
+font-weight: bold;
+}
+
+#heroImage{
+  margin-top: :100px;
+  margin-right: 80px;
+  border-radius: 50%;
+}
+
+
 
 /*----------------------Media Query ----------*/
 
@@ -598,7 +624,27 @@ footer .copyright{
   .section-p1 {
     padding: 40px 40px  
   }
-  
+
+  #heroWrapper{
+  display:flex;
+  flex-direction: column;
+}
+  #heroPara{
+color: white;
+width: 100%;
+font-size: 18px;
+line-height: 2;
+text-align: justify;
+font-weight: bold;
+}
+
+#heroImage{
+  width:150px;
+  height: 150px;
+  float: right;
+  margin-top: 20px;
+  border-radius: 50%;
+}
   #navbar{
   display: flex;
   flex-direction: column;   
@@ -650,7 +696,7 @@ display: flex;
   }
   
   .quantity{
-    top: 15px;
+  top: 15px;
   left: 83%;
   }
    
@@ -705,6 +751,29 @@ display: flex;
     padding: 20px
   }
   
+  #heroWrapper{
+  display:flex;
+  flex-direction: column;
+}
+
+ #heroPara{
+color: white;
+width: 100%;
+font-size: 18px;
+line-height: 2;
+text-align: justify;
+font-weight: bold;
+
+}
+
+#heroImage{
+  width:150px;
+  height: 150px;
+  float: right;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
   #header{
     padding: 10px 30px;
   }
@@ -781,3 +850,5 @@ display: flex;
     text-align: start;
   }
 }
+
+
