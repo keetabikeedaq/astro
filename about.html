@@ -1,489 +1,85 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-  body{
-    background-image:url("https://wallpaperaccess.com/full/1307986.jpg");background-position: center top;
-     background-size:cover;
-     opacity: 1;
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rudraksh</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+      
 
-  }
+        <link rel="stylesheet" href="shop.css">
+        
+      <!-------------------------Font Awesome Icons --------------->  
+  <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+  <!----------x---------------Font Awesome Icons --------x------->
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
+  <!----------x---------------Google font --------x------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+       <!----------x---------------Google font --------x----------------->
+ <style>
+    #aboutImage{
+        margin-left: 20px;
+        margin-top: 100px;
+        border-radius: 50%;
+    }
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
+    #{
 
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
+    }
+ </style>
+    </head>
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: white;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-</style>
-</head>
-<body>
-
-<h2 style="text-align:center;color:white;font-family:sans-serif;margin-top: 200px;">About Me</h2>
-
-<div class="card">
-  <img src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" alt="John" style="width:100%">
-  <h1 style="color:white;">Santhosh Shukla</h1>
-  <p style="color:white;" class="title">CEO & Founder,Rudraksh</p>
-  <p style="color:coral;font-weight: bold;">Benaras Hindi University</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-  <a href="contact.html"><button>Contact</button></a>
-</div>
-
-</body>
-</html>
- -->
-
-
- <!-- <!DOCTYPE html>
- <html>
- <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title></title>
-   <style>
-    img {
-    max-width: 100%;
-    height: auto;
-}
-        section {
-            padding: 60px 0;
-            min-height: 100vh;
-        }
-span, a, a:hover {
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
-}
-
-.blog img{
-    max-width: 100%;
-}
-.blog-head {
-  margin-bottom: 70px;
-}
-
-.blog-head h6{
-  color: #f05907;
-  position: relative;
-  display: inline-block;
-  text-transform: capitalize;
-}
-
-.blog-head h6:after, .blog-head h6:before{
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 3px;
-  background: #f05907;
-  top: 50%;
-}
-
-.blog-head h6:after{
-  right: 120%;
-}
-
-.blog-head h6:before{
-  left: 120%;
-}
-
-
-.overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(240, 89, 7, 0.82);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    transition: .5s ease;
-}
-
-.item {
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
-}
-
-.item:hover .overlay {
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.top-overlay {
-    bottom: 100%;    
-    height: 0;
-}
-.item:hover .top-overlay {
-  bottom: 0;
-}
-.bottom-overlay {
-    top: 100%;
-}
-
-.item:hover .bottom-overlay {
-  top: 0;
-}
-
-.right-overlay {
-    left: 100%;
-    height: 100%;
-}
-
-.item:hover .right-overlay {
-  left : 0;
-}
-
-.left-overlay {
-    right: 100%;
-    height: 100%;
-    left:auto;
-}
-
-.item:hover .left-overlay {
-  right : 0;
-}
-.fade-overlay {
-    height: 100%;
-    opacity: 0;
-}
-
-.item:hover .fade-overlay {
-  opacity: 1;
-}
-.title-overlay {
-    height: auto;
-    top: auto;
-    opacity: 0;
-}
-.item:hover .title-overlay {
-    opacity: 1;
-    height: auto;
-    padding: 50px 0;
-}
-.text {
-    color: white;
-    font-size: 1.2vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-   </style>
- </head>
- <body>
- <section class="blog">
-        <div class="container">
-         
-
-         
-          <div class="row">
-            
-            
-            <div class="col-md-6 col-lg-4">
-              <div class="item animated wow fadeIn">
-                  <img src="https://wallpaperaccess.com/full/1307986.jpg" alt="">
-                  <div class="overlay left-overlay">
-    <div class="text">Left Overlay</div>
-  </div>
-              </div>
+    <body>
+ <section id="header">
+           <!-- <a href="#"><img src="https://i.postimg.cc/x8ncvFjr/logo.png"></a> -->
+            <a style="text-decoration:none;color:coral;font-weight: bold;" href="index.html">Rudraksh</a>
+            <div>
+  <ul id="navbar">
+ <li><a href="index.html" class="active">Home</a></li>
+ <li><a href="shop.html">Shop</a></li>
+ 
+ <li><a href="about.html">About</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ <li><a href="index.html" id="lg-bag"><i class="fal fa-shopping-bag"></i></a>
+   <span class="quantity">0</span>
+ </li>
+ <li><a href="#" id="close"<i class="far fa-times"></i></a></li>
+                </ul>
             </div>
-            
-            
+<div id="mobile">
+  <a href="index.html" ><i class="fal fa-shopping-bag"></i>
+    <span class="quantity">0</span>
+  </a>
+  <i id="bar" class="fas fa-outdent"></i>
+</div>
+        </section>
 
-          </div>
-        </div>
-      </section>
- </body>
- </html> -->
+<!-- <section id="hero">
 
- <!DOCTYPE html>
- <html>
- <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   <link rel="stylesheet" href="about.css"/>
-   <title></title>
-   <style>
-     .image-container {
-  position: relative;
-  display: inline-block;
-}
-
-
-body {
-
-overflow-x: hidden;
-background: white;
-}
-
-
-
-.image-container  {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-
-
-.contactAbout{
-background: #F2AE0D;
-background: linear-gradient(315deg, #F2AE0D, #FCEAC2);
-border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-padding:20px;
-width:20% ;
-border-radius:20px;
-text-align: center;
- font-family: 'DM Sans', sans-serif;
-
-}
-.aboutContent{
-  margin-left: 100px;
-  width:50%;
-  text-align: justify;
-   font-family: 'DM Sans', sans-serif;
-}
-
-.aboutHead{
-  margin:20px;  
-}
-
-.material-symbols-outlined {
-    display: inline-block; /* or dithsplay: inline; */
-    vertical-align: middle;
-}
-
-.phone-number {
-    display: inline-block; /* or display: inline; */
-    vertical-align: middle;
-    margin-left: 5px; /* Add some space between the symbol and the number */
-}
-
-/*.aboutWrapperBox{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 100%;
-  height: auto;
-}*/
-
-
-.profile-section {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center align vertically */
-    justify-content: start; /* Center align horizontally */
-    text-align: center; /* Center aligns the profile name */
-    margin-bottom: 20px;
-    font-family: 'DM Sans', sans-serif;
-
-     /* Space below the profile section */
-}
-
-.overlay-text {
-   color:white
-    margin-left: 20px;
-     font-family: 'DM Sans', sans-serif;
-
-     /* Space between the profile photo and the text */
-}
-
-.overlay-textOne {
-    display: inline; /* Display as inline to move towards the left */
-    margin-left:0px;
-      font-family: 'DM Sans', sans-serif;
-       /* Remove margin */
-}
-
-.overlay-textTwo {
-    display: inline-block; /* Dis  
-play as inline-block for proper alignment */
-    margin:0;  
-     font-family: sans-serif;
-   /* Remove margin */
-}
-
-.profile-photo {
-    width: 300px; /* Adjust the width of the profile photo */
-    height: 300px; /* Adjust the height of the profile photo */
-    border-radius: 50%; /* Makes the image circular */
-    margin-right: 20px;
-    margin-left:50px; /* Space between the profile photo and the content */
-}
-
-.info-section {
-    margin-top: 20px; /* Space above the info sections */
-    clear: both; /* Clears the float */
-}
-
-.info-item {
-    margin-bottom: 15px; /* Space between each section */
-}
-
-.aboutPara{
-  font-size: 20px;
-   font-family: 'DM Sans', sans-serif;
-  text-align: justify-all;
-  padding: 10px;
-  margin: 10px;
-}
-
-
-
-@media (max-width: 768px) {
-  body{
-    background: white;
-  }
-
-  .aboutHead{
-    text-align: center;
-  }
-
-  .profile-photo {
-    width: 250px; /* Adjust the width of the profile photo */
-    height: 250px; /* Adjust the height of the profile photo */
-    border-radius: 50%; /* Makes the image circular */
-    margin-right: 20px;
-    margin-left:30px; /* Space between the profile photo and the content */
-}
-.aboutContent{
+  <h2 style="color:white">Super value deals</h2>
+  <h1 style="color:coral">On all Products</h1>
+  <p style="color:white">Save more with coupons and up to 50% off!</p>
+  <a style="text-align:justify" href="aboutN.html"> <button style="color:black;background:red";>Consult Now</button></a>
   
-width:80%;
-margin: 0;
-}
+</section> -->
 
-.contactAbout{
-background: #F2AE0D;
-background: linear-gradient(315deg, #F2AE0D, #FCEAC2);
-border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-padding:20px;
-width:80% ;
-border-radius:20px;
-text-align: center;
-margin-left:20px;
-}
-
-
-  .overlay-textOne {
-    display: inline; /* Display as inline to move towards the left */
-    margin:0px;
-       /* Remove margin */
-}
-
-.overlay-textTwo {
-    display: inline-block; /* Display as inline-block for proper alignment */
-    margin:0;  
-   /* Remove margin */
-}
-
-.aboutPara{
-  font-size: 20px;
-   font-family: 'DM Sans', sans-serif;
-  text-align: justify;
-  padding: 10px;
-  margin: 10px;
-  width: 100%;
-}
-
-#aboutTopHead{
-  text-align: center;
-  font-size: 14px;
-   font-family: 'DM Sans', sans-serif;
-}
-
-
-
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-     font-family: 'DM Sans', sans-serif;
-}
-
-.home-link-button {
-      order: 2;
-     border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-     background:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-     height: 40px;
     
-     width:100px;
-
-}
-.home-link{
-order: 2;
-     border:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-     background:linear-gradient(315deg, #F2AE0D, #FCEAC2);
-}
-
-.overlay-text {
-     font-family: 'DM Sans', sans-serif;
-    margin: 0;
-}
 
 
+ 
+   <section class="content-section">
 
-
-
-
-   </style>
- </head>
- <body>
-<div class="header">
-    <a  href="index.html" class="home-link">
-        <button style="border:1px solid yellow"class="home-link-button">Home</button>
-
-    </a>
-    <h1 id="aboutTopHead" class="overlay-text">आचार्य संतोष शुक्ला</h1>
-</div> 
 <div class="profile-section">
-
-    <img src="mama.jpg" alt="Profile Photo" class="profile-photo">
+   
+    <img id="aboutImage" src="mama.jpg" alt="Profile Photo" class="profile-photo">
     
 </div>
 
-<div class="info-section">
+<div style="margin-left:20px;" class="info-section">
     <div class="expertise info-item">
         <h3 class="overlay-textOne">विशेषज्ञता:</h3>
         <p class="overlay-textTwo">वैदिक, केपी सिस्टम, लाल किताब</p>
@@ -501,99 +97,175 @@ order: 2;
 </div>
 <div class="contactAbout">
 <h2>
-    <span class="material-symbols-outlined">call</span>: <span class="phone-number">9868641336</span>
+    <button style="background: yellow;color:black;border: 1px solid yellow;border-radius: 5px;padding: 5px;margin: 20px;"><span class="material-symbols-outlined">call</span>: <span style="margin-bottom: -10px;" class="phone-number">999999999</span></button>
 </h2>
 
 </div>
-<div class="aboutWrapperBox">
-<h1 class="aboutHead">आचार्य संतोष शुक्ला के बारे में</h1>
-<p class="aboutPara">
+<div style="margin-left:20px;" class="aboutWrapperBox">
+<h3 class="aboutHead">आचार्य संतोष शुक्ला के बारे में</h1>
+<p style="font-size: 18px;"class="aboutPara">
 रहस्यमय क्षेत्रों में एक प्रतिष्ठित विशेषज्ञ, आचार्य संतोष ने एक दशक से अधिक समय से विशेषज्ञता की एक समृद्ध टेपेस्ट्री तैयार की है। उनकी बहुमुखी महारत में वैदिक ज्योतिष, केपी सिस्टम, लाल किताब, वास्तु, हस्तरेखा विज्ञान और मुहूर्त शामिल हैं। प्राचीन ज्ञान के सच्चे संरक्षक, आचार्य संतोष साधकों को उनके जीवन की समग्र समझ प्रदान करने के लिए इन विविध तौर-तरीकों को सहजता से बुनते हैं। चाहे वैदिक अंतर्दृष्टि के माध्यम से आकाशीय प्रभावों को उजागर करना हो या हस्तरेखा विज्ञान की बारीकियों को समझना हो, उनका मार्गदर्शन ब्रह्मांडीय धाराओं को नेविगेट करने वाला एक कम्पास है। </p>
-<p class="aboutPara">
+<p style="font-size: 18px;" class="aboutPara">
 मुहूर्त की सूक्ष्म कला में कुशल, आचार्य संतोष व्यक्तियों को अपने कार्यों को शुभ समय के साथ संरेखित करने का अधिकार देते हैं। विविध आध्यात्मिक विज्ञानों के प्रति उनकी प्रतिबद्धता उन्हें न केवल एक ज्योतिषी के रूप में, बल्कि ज्ञान के एक प्रकाशस्तंभ के रूप में चिह्नित करती है, जो गहन अंतर्दृष्टि चाहने वालों के जटिल मार्गों को रोशन करता है।
 </p>
 </div>
 
 
-   <h1 class="aboutHead">ज्योतिष के बारे में अक्सर पूछे जाने वाले प्रश्न</h1>
-   
-  
-    <section  id="section1" class="content-section">
+   </section>
+  <h3 style="margin-left:20px;" class="aboutHead">ज्योतिष के बारे में अक्सर पूछे जाने वाले प्रश्न</h3>
+    <section style="margin-left:20px;" id="section1" class="content-section">
       
-     <h2>ज्योतिष शास्त्र इतना सटीक क्यों है?</h2>
-   सबसे पहले, ज्योतिष और हमारे द्वारा यहां की गई भविष्यवाणियों के इतने सटीक होने का श्रेय हमारे साथ जुड़े सैकड़ों विद्वान और ज्योतिष में पारंगत ज्योतिषियों को जाता है। और इसका उत्तर देने के लिए कि कौन सी चीज़ ज्योतिष को इतना सटीक बनाती है, वह है हमारे ज्योतिषियों का ग्रहों, ग्रह विन्यास, नक्षत्रों के बारे में शुद्ध ज्ञान और यह सीखना कि वे मानव जीवन और व्यवहार को कैसे प्रभावित करते हैं, जैसे वे चलते हैं, बदलते हैं या यहां तक ​​कि स्थिर रहते हैं।
+     <h3>ज्योतिष शास्त्र इतना सटीक क्यों है?</h3>
+   <p style="font-size: 18px;">सबसे पहले, ज्योतिष और हमारे द्वारा यहां की गई भविष्यवाणियों के इतने सटीक होने का श्रेय हमारे साथ जुड़े सैकड़ों विद्वान और ज्योतिष में पारंगत ज्योतिषियों को जाता है। और इसका उत्तर देने के लिए कि कौन सी चीज़ ज्योतिष को इतना सटीक बनाती है, वह है हमारे ज्योतिषियों का ग्रहों, ग्रह विन्यास, नक्षत्रों के बारे में शुद्ध ज्ञान और यह सीखना कि वे मानव जीवन और व्यवहार को कैसे प्रभावित करते हैं, जैसे वे चलते हैं, बदलते हैं या यहां तक कि स्थिर रहते हैं।</p>
 
-  ज्योतिष कोई यादृच्छिक अनुमान नहीं है, बल्कि विज्ञान है जिसमें वैज्ञानिक सिद्धांत शामिल हैं जो हजारों साल पहले विद्वान गुरुओं द्वारा तैयार किए गए थे और आज तक नहीं बदले हैं। इन गुरुओं ने ग्रहों की गति का अध्ययन किया और उनकी आभा पृथ्वी पर लोगों के जीवन को कैसे प्रभावित करती है। ज्योतिष शास्त्र की प्राचीनता इसी बात से पता चलती है कि इसकी सटीकता के कारण आज भी लाखों लोग इससे जुड़े हुए हैं। ज्योतिष ने हमारे और कई अन्य ज्योतिषियों के माध्यम से लाखों लोगों के जीवन को बदल दिया है जो एक समय में एक भविष्यवाणी के साथ ज्योतिष के बारे में अपना ज्ञान साझा करना जारी रखते हैं।
+  <p style="font-size: 18px;">ज्योतिष कोई यादृच्छिक अनुमान नहीं है, बल्कि विज्ञान है जिसमें वैज्ञानिक सिद्धांत शामिल हैं जो हजारों साल पहले विद्वान गुरुओं द्वारा तैयार किए गए थे और आज तक नहीं बदले हैं। इन गुरुओं ने ग्रहों की गति का अध्ययन किया और उनकी आभा पृथ्वी पर लोगों के जीवन को कैसे प्रभावित करती है। ज्योतिष शास्त्र की प्राचीनता इसी बात से पता चलती है कि इसकी सटीकता के कारण आज भी लाखों लोग इससे जुड़े हुए हैं। ज्योतिष ने हमारे और कई अन्य ज्योतिषियों के माध्यम से लाखों लोगों के जीवन को बदल दिया है जो एक समय में एक भविष्यवाणी के साथ ज्योतिष के बारे में अपना ज्ञान साझा करना जारी रखते हैं।</p>
 
   
     </section>
-    <section id="section2" class="content-section">
+    <section style="margin-left:20px;" id="section2" class="content-section">
      
-      <h2>क्या ज्योतिष की भविष्यवाणी सच है?</h2>
-          कई लोगों को यह गलतफहमी होती है कि एक ज्योतिषी उन्हें बता सकता है कि भविष्य में या अगले पल उनके साथ वास्तव में क्या होने वाला है, जो ज्योतिष के बारे में सोचने का एक गलत तरीका है। ज्योतिष शास्त्र की भविष्यवाणियाँ ग्रहों की चाल पर आधारित होती हैं। एक ग्रह एक भाव से दूसरे भाव में, एक राशि से दूसरी राशि में भ्रमण करता है, आदि। पौधों द्वारा ये क्षण जातक के लिए अच्छे या प्रतिकूल हो सकते हैं। उदाहरण के लिए, यदि मान लें कि बुध ग्रह मित्र राशि में डेरा डाले हुए है, तो परिणाम जातक के लिए अच्छे होंगे। इस बीच यदि बुध किसी प्रतिकूल राशि में डेरा डाल रहा हो तो परिणाम गंभीर हो सकते हैं। एक ज्योतिषी गणना के आधार पर ऐसे बदलावों और लक्षणों को नोट करता है और उसी के आधार पर आपसे साझा करता है कि आपका आने वाला समय अच्छा होगा या कठिन। यदि आप इस तरह सोचते हैं, तो ज्योतिष की भविष्यवाणियाँ सच होनी चाहिए। सटीक भविष्यवाणियां तब संभव होती हैं जब आप आने वाले शुभ मुहूर्त, आप मांगलिक हैं या नहीं आदि जैसी चीजों के बारे में जानना चाहते हैं।
+      <h3>क्या ज्योतिष की भविष्यवाणी सच है?</h3>
+          <p style="font-size: 18px;">कई लोगों को यह गलतफहमी होती है कि एक ज्योतिषी उन्हें बता सकता है कि भविष्य में या अगले पल उनके साथ वास्तव में क्या होने वाला है, जो ज्योतिष के बारे में सोचने का एक गलत तरीका है। ज्योतिष शास्त्र की भविष्यवाणियाँ ग्रहों की चाल पर आधारित होती हैं। एक ग्रह एक भाव से दूसरे भाव में, एक राशि से दूसरी राशि में भ्रमण करता है, आदि। पौधों द्वारा ये क्षण जातक के लिए अच्छे या प्रतिकूल हो सकते हैं। उदाहरण के लिए, यदि मान लें कि बुध ग्रह मित्र राशि में डेरा डाले हुए है, तो परिणाम जातक के लिए अच्छे होंगे। इस बीच यदि बुध किसी प्रतिकूल राशि में डेरा डाल रहा हो तो परिणाम गंभीर हो सकते हैं। एक ज्योतिषी गणना के आधार पर ऐसे बदलावों और लक्षणों को नोट करता है और उसी के आधार पर आपसे साझा करता है कि आपका आने वाला समय अच्छा होगा या कठिन। यदि आप इस तरह सोचते हैं, तो ज्योतिष की भविष्यवाणियाँ सच होनी चाहिए। सटीक भविष्यवाणियां तब संभव होती हैं जब आप आने वाले शुभ मुहूर्त, आप मांगलिक हैं या नहीं आदि जैसी चीजों के बारे में जानना चाहते हैं।</p>
 
      
      
     </section>
-    <section id="section3" class="content-section">
+    <section style="margin-left:20px;" id="section3" class="content-section">
       
-      <h2>ऑनलाइन ज्योतिष भविष्य की भविष्यवाणी करने में मेरी कैसे मदद कर सकता है?</h2>
-        ऑनलाइन ज्योतिष दो प्रकार का हो सकता है। एक, आप किसी वेबसाइट पर जा सकते हैं और वहां उपलब्ध ज्योतिष उपकरण ढूंढ सकते हैं। फिर आपको बस अपनी जन्म तिथि, जन्म का समय, जन्म स्थान इत्यादि जैसे कुछ विवरण दर्ज करने होंगे और आपके पास एक संतोषजनक रिपोर्ट होगी जो आपको किसी और से बेहतर बताती है। इस बीच, दूसरा तरीका यह है कि उसी जानकारी को विस्तृत तरीके से प्राप्त करने के लिए हमारे साथ मौजूद ज्योतिषियों से सीधे संपर्क करें (कॉल या चैट के माध्यम से)। ऑनलाइन ज्योतिष आधुनिक लग सकता है, लेकिन जब आपके भविष्य के बारे में भविष्यवाणी करने की बात आती है, तो आपको सबसे सटीक परिणाम प्रदान करने के लिए सितारों और ग्रहों की स्थिति की गणना करने के पुराने तरीके का उपयोग किया जाता है। सीधे शब्दों में कहें तो, ऑनलाइन ज्योतिष एक ज्योतिषी और उस व्यक्ति के बीच संचार के तरीके में बदलाव है जो अपने अतीत, वर्तमान और भविष्य के बारे में जानना चाहता है। हालाँकि, इन उत्तरों तक पहुँचने का तरीका अभी भी पुराना है और सबसे प्रामाणिक में से एक है।
+      <h3>ऑनलाइन ज्योतिष भविष्य की भविष्यवाणी करने में मेरी कैसे मदद कर सकता है?</h3>
+        <p style="font-size: 18px;">ऑनलाइन ज्योतिष दो प्रकार का हो सकता है। एक, आप किसी वेबसाइट पर जा सकते हैं और वहां उपलब्ध ज्योतिष उपकरण ढूंढ सकते हैं। फिर आपको बस अपनी जन्म तिथि, जन्म का समय, जन्म स्थान इत्यादि जैसे कुछ विवरण दर्ज करने होंगे और आपके पास एक संतोषजनक रिपोर्ट होगी जो आपको किसी और से बेहतर बताती है। इस बीच, दूसरा तरीका यह है कि उसी जानकारी को विस्तृत तरीके से प्राप्त करने के लिए हमारे साथ मौजूद ज्योतिषियों से सीधे संपर्क करें (कॉल या चैट के माध्यम से)। ऑनलाइन ज्योतिष आधुनिक लग सकता है, लेकिन जब आपके भविष्य के बारे में भविष्यवाणी करने की बात आती है, तो आपको सबसे सटीक परिणाम प्रदान करने के लिए सितारों और ग्रहों की स्थिति की गणना करने के पुराने तरीके का उपयोग किया जाता है। सीधे शब्दों में कहें तो, ऑनलाइन ज्योतिष एक ज्योतिषी और उस व्यक्ति के बीच संचार के तरीके में बदलाव है जो अपने अतीत, वर्तमान और भविष्य के बारे में जानना चाहता है। हालाँकि, इन उत्तरों तक पहुँचने का तरीका अभी भी पुराना है और सबसे प्रामाणिक में से एक है।</p>
 
    </section>
-    <section id="section4" class="content-section">
+    <section style="margin-left:20px;" id="section4" class="content-section">
      
-      <h2>मैं ऑनलाइन ज्योतिषियों से किस प्रकार के प्रश्न पूछ सकता हूँ?</h2>
-           जब तक आप अपने प्रश्नों के प्रति सम्मानजनक और प्रामाणिक नहीं होते, तब तक इसकी कोई सीमा नहीं है कि आप किसी ज्योतिषी से क्या चैट कर सकते हैं और क्या नहीं। वस्तुतः ज्योतिष शास्त्र के पास किसी भी चीज़ और हर चीज़ का उत्तर है। आपके करियर से लेकर आपके प्रेम जीवन या स्वास्थ्य तक, ज्योतिष अनंत प्रश्नों की भविष्यवाणी कर सकता है। आप हम पर भरोसा कर सकते हैं जब हम कहते हैं कि हमारे ज्योतिषियों के पास कुछ सबसे कठिन प्रश्न हैं, जिनका उन्होंने आसानी से उत्तर दिया है।
-क्या आप मांगलिक हैं? एक ज्योतिषी आपको यह पता लगाने में मदद कर सकता है। या शादी करने का शुभ मुहूर्त क्या है? या आने वाले वर्षों में आपकी वित्तीय स्थिति में सुधार की क्या संभावना है? हमारे ज्योतिषी ग्रहों की स्थिति की गणना करके और उन्हें आपके नक्षत्र, राशि चक्र, ज्योतिष में घरों और अन्य जैसे कई कारकों के साथ जोड़कर ऐसे सभी सवालों का जवाब दे सकते हैं।
+      <h3>
+        <p style="font-size: 18px;">मैं ऑनलाइन ज्योतिषियों से किस प्रकार के प्रश्न पूछ सकता हूँ?</h3>
+           जब तक आप अपने प्रश्नों के प्रति सम्मानजनक और प्रामाणिक नहीं होते, तब तक इसकी कोई सीमा नहीं है कि आप किसी ज्योतिषी से क्या चैट कर सकते हैं और क्या नहीं। वस्तुतः ज्योतिष शास्त्र के पास किसी भी चीज़ और हर चीज़ का उत्तर है। आपके करियर से लेकर आपके प्रेम जीवन या स्वास्थ्य तक, ज्योतिष अनंत प्रश्नों की भविष्यवाणी कर सकता है। आप हम पर भरोसा कर सकते हैं जब हम कहते हैं कि हमारे ज्योतिषियों के पास कुछ सबसे कठिन प्रश्न हैं, जिनका उन्होंने आसानी से उत्तर दिया है।</p>
+<p style="font-size: 18px;">क्या आप मांगलिक हैं? एक ज्योतिषी आपको यह पता लगाने में मदद कर सकता है। या शादी करने का शुभ मुहूर्त क्या है? या आने वाले वर्षों में आपकी वित्तीय स्थिति में सुधार की क्या संभावना है? हमारे ज्योतिषी ग्रहों की स्थिति की गणना करके और उन्हें आपके नक्षत्र, राशि चक्र, ज्योतिष में घरों और अन्य जैसे कई कारकों के साथ जोड़कर ऐसे सभी सवालों का जवाब दे सकते हैं।</p>
 
       
   
     </section>
    
-    <section id="section6" class="content-section">
+    <section style="margin-left:20px;" id="section6" class="content-section">
      
-      <h2>क्या ज्योतिष की भविष्यवाणियाँ बदली जा सकती हैं?</h2>
-    ज्योतिषीय भविष्यवाणियाँ कई मामलों में बदल सकती हैं:
+      <h3>क्या ज्योतिष की भविष्यवाणियाँ बदली जा सकती हैं?</h3>
+    <p style="font-size: 18px;">ज्योतिषीय भविष्यवाणियाँ कई मामलों में बदल सकती हैं:
 
 पहला तब होता है जब कोई ज्योतिषी अनजाने में ग्रहों की स्थिति जानने में गलती कर देता है। ऐसे में भविष्यवाणियां ग़लत हो सकती हैं.
 
-दूसरे, यदि आपने गलत जानकारी प्रदान की है, विशेष रूप से आपके जन्म की तारीख और समय, तो ज्योतिष भविष्यवाणियां बदल सकती हैं।
+दूसरे, यदि आपने गलत जानकारी प्रदान की है, विशेष रूप से आपके जन्म की तारीख और समय, तो ज्योतिष भविष्यवाणियां बदल सकती हैं।</p>
 
-तीसरी स्थिति जब ज्योतिष की भविष्यवाणियां गलत हो सकती हैं, वह है जब आप अच्छे या बुरे के लिए खुद को बदलने की कोशिश करते हैं। आप में से कई लोग सोच रहे होंगे कि एक ज्योतिषीय भविष्यवाणी कैसे बदल सकती है, जबकि वह ज्यादातर ग्रहों की चाल पर आधारित होती है (जो बदलती नहीं है)? ख़ैर, इसमें और भी बहुत कुछ है। प्रत्येक ग्रह कुछ अच्छे गुणों और कुछ बुरे लक्षणों पर शासन करता है। और यह आपके कर्म हैं जो तय करते हैं कि ग्रह के कौन से गुण शक्तिशाली बनेंगे। उदाहरण के लिए, यदि आप अभी तक लापरवाह व्यक्ति हैं और आपका स्वामी ग्रह बुध है, तो आप बुध के अच्छे प्रभाव प्राप्त करने में असमर्थ हैं। हालाँकि, यदि आप समय के साथ खुद को बदलने की कोशिश करते हैं, तो बुध के अच्छे गुण अंततः आपके चार्ट और व्यक्तित्व में दिखाई देंगे, जिससे ज्योतिष भविष्यवाणी बदल जाएगी।
+<p style="font-size: 18px;">तीसरी स्थिति जब ज्योतिष की भविष्यवाणियां गलत हो सकती हैं, वह है जब आप अच्छे या बुरे के लिए खुद को बदलने की कोशिश करते हैं। आप में से कई लोग सोच रहे होंगे कि एक ज्योतिषीय भविष्यवाणी कैसे बदल सकती है, जबकि वह ज्यादातर ग्रहों की चाल पर आधारित होती है (जो बदलती नहीं है)? ख़ैर, इसमें और भी बहुत कुछ है। प्रत्येक ग्रह कुछ अच्छे गुणों और कुछ बुरे लक्षणों पर शासन करता है। और यह आपके कर्म हैं जो तय करते हैं कि ग्रह के कौन से गुण शक्तिशाली बनेंगे। उदाहरण के लिए, यदि आप अभी तक लापरवाह व्यक्ति हैं और आपका स्वामी ग्रह बुध है, तो आप बुध के अच्छे प्रभाव प्राप्त करने में असमर्थ हैं। हालाँकि, यदि आप समय के साथ खुद को बदलने की कोशिश करते हैं, तो बुध के अच्छे गुण अंततः आपके चार्ट और व्यक्तित्व में दिखाई देंगे, जिससे ज्योतिष भविष्यवाणी बदल जाएगी।</p>
 
   
   
     </section>
     
-      <section id="section7" class="content-section">
+      <section style="margin-left:20px;" id="section7" class="content-section">
       
-      <h2>यदि मैं ज्योतिष सेवाओं का लाभ उठाऊं तो मैं क्या लाभ की उम्मीद कर सकता हूं?</h2>
-      सबसे पहले, यदि आप हमारे प्लेटफ़ॉर्म पर नए हैं, तो आपको अपनी पहली भविष्यवाणी पर 50% की छूट मिलती है। तो यह कुछ बचत है। दूसरे, हमारे ज्योतिषियों द्वारा आपके भविष्य या वर्तमान के बारे में दी गई जानकारी का उपयोग करके, आप सावधान रह सकते हैं जो आपको बड़ी समस्याओं से निपटने में मदद करेगा, जो वित्त से संबंधित, करियर से संबंधित, प्रेम से संबंधित आदि हो सकती हैं।
+      <h3>यदि मैं ज्योतिष सेवाओं का लाभ उठाऊं तो मैं क्या लाभ की उम्मीद कर सकता हूं?</h3>
+      <p style="font-size: 18px;">सबसे पहले, यदि आप हमारे प्लेटफ़ॉर्म पर नए हैं, तो आपको अपनी पहली भविष्यवाणी पर 50% की छूट मिलती है। तो यह कुछ बचत है। दूसरे, हमारे ज्योतिषियों द्वारा आपके भविष्य या वर्तमान के बारे में दी गई जानकारी का उपयोग करके, आप सावधान रह सकते हैं जो आपको बड़ी समस्याओं से निपटने में मदद करेगा, जो वित्त से संबंधित, करियर से संबंधित, प्रेम से संबंधित आदि हो सकती हैं।</p>
 
-आपके ज्योतिषीय चार्ट को देखकर, एक ज्योतिषी न केवल आपके बारे में बल्कि आपके परिवार, आपके रिश्तेदारों, आपके सहकर्मियों और अन्य के प्रति आपके व्यवहार के बारे में भी भविष्यवाणी कर सकता है। इन व्यवहारों के बारे में सीखने से आपको महत्वपूर्ण लोगों के सामने खुद को बेहतर ढंग से प्रस्तुत करने में मदद मिल सकती है। इस तरह, ज्योतिष अनगिनत लाभों के बीच आपके व्यक्तित्व को बेहतर बनाने में सकारात्मक रूप से आपकी मदद कर सकता है। ज्योतिष शास्त्र और भविष्य की भविष्यवाणियों के बारे में अधिक जानकारी के लिए आप ज्योतिषी से बात कर सकते हैं।
+<p style="font-size: 18px;">आपके ज्योतिषीय चार्ट को देखकर, एक ज्योतिषी न केवल आपके बारे में बल्कि आपके परिवार, आपके रिश्तेदारों, आपके सहकर्मियों और अन्य के प्रति आपके व्यवहार के बारे में भी भविष्यवाणी कर सकता है। इन व्यवहारों के बारे में सीखने से आपको महत्वपूर्ण लोगों के सामने खुद को बेहतर ढंग से प्रस्तुत करने में मदद मिल सकती है। इस तरह, ज्योतिष अनगिनत लाभों के बीच आपके व्यक्तित्व को बेहतर बनाने में सकारात्मक रूप से आपकी मदद कर सकता है। ज्योतिष शास्त्र और भविष्य की भविष्यवाणियों के बारे में अधिक जानकारी के लिए आप ज्योतिषी से बात कर सकते हैं।</p>
 
   
   
     </section>
     
-       <section  id="section5" class="content-section">
+       <section style="margin-left:20px;" id="section5" class="content-section">
      
-      <h2>ऑनलाइन ज्योतिष परामर्श की अवधि क्या है?</h2>
-     ज्योतिष की कोई सीमा नहीं है और न ही हमारी है। हमारे पास बहुत सारे ज्योतिषी हैं जिनसे आप जुड़ सकते हैं और प्रश्न पूछ सकते हैं। वे बिना किसी समय सीमा के आपके सभी प्रश्नों में आपकी सहायता करेंगे।
+      <h3>ऑनलाइन ज्योतिष परामर्श की अवधि क्या है?</h3>
+     <p style="font-size: 18px;">ज्योतिष की कोई सीमा नहीं है और न ही हमारी है। हमारे पास बहुत सारे ज्योतिषी हैं जिनसे आप जुड़ सकते हैं और प्रश्न पूछ सकते हैं। वे बिना किसी समय सीमा के आपके सभी प्रश्नों में आपकी सहायता करेंगे।</p>
 
   
       
     </section>
  
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    </div>
 
+<section id="newsletter" class="section-p1">
+  <div class="newstext">
+    <h4>Sign Up for Newsletters</h4>
+    <p>Get Email updates about our latest shop and <span> special offers.</span> </p>
+  </div>
+    <div class="form">
+    <input type="text" placeholder="Your email address">
+       <button class="btn normal">Sign Up</button>
+    </div>
+   
+  </div>
   
+</section>
 
-
+<footer class="section-p1">
   
+<div class="col">
+  <a style="text-decoration:none;color:coral;font-weight: bold;" href="#">Rudraksh</a>
+<!-- <a href="#"><img class="logo" src="https://i.postimg.cc/x8ncvFjr/logo.png"></a> -->
+    <h4>Contact</h4>
+     <p><strong>Address:<strong></p>
+    <p><strong>Phone:</strong></p>
+    <p><strong>Hours:</strong>10.00 - 18.00, Mon - Sat</p>
+       <div class="follow">
+         <h4>Follow Us</h4>
+         <div class="icon">
+           <i class="fab fa-facebook-f"></i>
+           <i class="fab fa-instagram"></i>
+           <i class="fab fa-twitter"></i>
+           <i class="fab fa-youtube"></i>
+           <i class="fab fa-pinterest-p"></i>
+            </div>
+       </div>
+       </div>
+      
+    <div class="sec">   
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms and Condition</a>
+      <a href="contact.html">Contact Us</a>
+   </div>
+    
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Account</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track my Order</a>
+      <a href="#">Help</a>
+        
+    </div>
+    
+   <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <p>Download the Apk, and click on the file to install</p>
+      <div class="row">
+        <a href="app-debug.apk" download> <img src="https://i.postimg.cc/7YvyWTS6/play.jpg" alt=""></a>
 
+      <img src="https://i.postimg.cc/Y2s5mLdR/app.jpg" alt="">
+      <!-- <img src="https://i.postimg.cc/7YvyWTS6/play.jpg" alt=""> -->
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img src="https://i.postimg.cc/kgfzqVRW/pay.png" alt="">
+       </div>
+  </div>
   
- </body>
- </html>
+  <div class="coypright">
+      <p>  </p>
+    </div>
+  
+  
+ </footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+<script src="shop.js"></script>
+    </body>
+
+</html>
